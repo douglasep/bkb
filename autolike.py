@@ -23,6 +23,8 @@ number_of_swipes = 1000000
 
 if platform == "linux" or platform == "linux2":
     chromedriver_path = "/usr/local/bin/chromedriver" # COLAR A PASTA DO WEBDRIVER AQUI 
+elif platform == 'win32':
+    chromedriver_path = "win/chromedriver.exe" # COLAR A PASTA DO WEBDRIVER AQUI 
 else:
     chromedriver_path = "mac/chromedriver" # COLAR A PASTA DO WEBDRIVER AQUI 
 
